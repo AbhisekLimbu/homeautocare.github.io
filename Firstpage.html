@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="image">
+        <img src="./utahack.jpg" alt="utahackteam">
+    </div>
+
+    <div class="navigation">
+       <ul>
+            <li><a href="./Home.html" id="home-link">Home</a></li>
+            <li><a href="./aboutus.html" id="about-link">About</a></li>
+        </ul>
+    </div>
+</div>
+
+<script>
+    // JavaScript code to add navigation functionality
+    document.getElementById("home-link").addEventListener("click", function() {
+        // Redirect to the Home page when the "Home" link is clicked
+        window.location.href = "./Home.html";
+    });
+
+    document.getElementById("about-link").addEventListener("click", function() {
+        // Redirect to the About Us page when the "About" link is clicked
+        window.location.href = "./aboutus.html";
+    });
+</script>
+</body>
+</html>
